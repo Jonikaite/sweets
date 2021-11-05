@@ -92,3 +92,13 @@ body {
   background: var(--mainBlack);
   color: var(--mainPink);
 }
+
+/* about section */
+
+.about-img__container {
+  position: relative;
+}
+
+.about-img__container::before {
+  content: "";
+}
